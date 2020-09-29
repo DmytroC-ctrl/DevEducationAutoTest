@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace DevEducationAutoTest
 {
-    public class Class1
+    public class SeleniumTest
     {
+
     }
 }
