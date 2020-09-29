@@ -21,14 +21,28 @@ namespace DevEducationAutoTest
             this.chrome = driver;
         }
 
-        public Footer_POM ClickOnInstagramLink(By link)
+        public Footer_POM ClickOnInstagramLink()
         {
-            chrome.FindElement(link).Click();
+            chrome.FindElement(_instagramLink).Click();
             return this;
         }
 
+        public Footer_POM ClickOnYouTubeLink()
+        {
+            chrome.FindElement(_youTubeLink).Click();
+            return this;
+        }
 
+        public Footer_POM ClickOnLinkedInLink()
+        {
+            chrome.FindElement(_linkedInLink).Click();
+            return this;
+        }
 
-
+        public Footer_POM ClickOnFacebookLink()
+        {
+            chrome.FindElement(_facebookLink).Click();
+            return this;
+        }
     }
 }
